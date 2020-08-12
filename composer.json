@@ -1,0 +1,23 @@
+{
+    "name": "ycs77/di-book-example-php-hello-di",
+    "description": "Hello DI",
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "DI\\HelloDI\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DI\\HelloDI\\Test\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^0.2",
+        "phpunit/phpunit": "^9.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
